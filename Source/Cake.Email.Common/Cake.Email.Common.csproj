@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;net46</TargetFrameworks>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Cake.Email.Common</PackageId>
+    <Title>Cake.Email.Common</Title>
+    <Summary>Common code for Cake build addins that send emails.</Summary>
+    <Description>Common code for Cake build addins that send emails.</Description>
+    <PackageTags>Cake Script Build Email</PackageTags>
+    <Authors>Jericho</Authors>
+    <Owners>Jericho</Owners>
+    <PackageProjectUrl>https://github.com/cake-contrib/Cake.Email.Common/</PackageProjectUrl>
+    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/cake-contrib/Cake.Email.Common/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Copyright (c) Cake Contributions 2017 - Present</Copyright>
+    <Company>Cake Contributions</Company>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>Cake.Email.Common.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="MimeTypesMap" Version="1.0.2" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
