@@ -12,7 +12,7 @@ namespace Cake.Email.Common
         private bool _isDisposed = false;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="AttachmentBase"/> class
+        /// Initializes a new instance of the <see cref="Attachment"/> class
         /// with the specified Stream and mime type.
         /// </summary>
         /// <param name="contentStream">A stream containing the content for this attachment.</param>
@@ -93,7 +93,7 @@ namespace Cake.Email.Common
         }
 
         /// <summary>
-        /// Releases the resources used by the System.Net.Mail.AttachmentBase.
+        /// Releases the resources Attachment.
         /// </summary>
         public void Dispose()
         {
@@ -101,7 +101,7 @@ namespace Cake.Email.Common
         }
 
         /// <summary>
-        /// Releases the unmanaged resources used by the System.Net.Mail.AttachmentBase and
+        /// Releases the unmanaged resources used by the Attachment and
         /// optionally releases the managed resources.
         /// </summary>
         /// <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
