@@ -1,6 +1,6 @@
-﻿using HeyRed.Mime;
-using System;
+﻿using System;
 using System.IO;
+using HeyRed.Mime;
 
 namespace Cake.Email.Common
 {
