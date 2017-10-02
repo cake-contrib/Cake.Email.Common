@@ -1,4 +1,6 @@
-﻿namespace Cake.Email.Common
+﻿using System;
+
+namespace Cake.Email.Common
 {
     /// <summary>
     /// Represents an e-mail address.
