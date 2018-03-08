@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netcoreapp1.1;net46</TargetFrameworks>
+        <TargetFramework>netcoreapp2.0</TargetFramework>
         <Title>Cake.Email.Common.Tests</Title>
         <Description>xUnit tests for the Cake Email Common library</Description>
     </PropertyGroup>
