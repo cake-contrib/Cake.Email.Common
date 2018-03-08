@@ -9,17 +9,12 @@ BuildParameters.SetParameters(context: Context,
                             repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.Email.Common",
                             shouldRunDotNetCorePack: true,
+                            shouldRunDupFinder: true,
+                            shouldRunInspectCode: false,
                             appVeyorAccountName: "cakecontrib");
 
 BuildParameters.PrintParameters(Context);
 
-ToolSettings.SetToolSettings(context: Context,
-                            dupFinderExcludePattern: new string[] {
-                                BuildParameters.RootDirectoryPath + "/Source/Cake.Email.Common.Tests/**/*.cs",
-                                BuildParameters.RootDirectoryPath + "/Source/Cake.Email.Common/**/*.AssemblyInfo.cs"
-                            },
-                            testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* ",
-                            testCoverageExcludeByAttribute: "*.ExcludeFromCodeCoverage*",
-                            testCoverageExcludeByFile: "*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
+ToolSettings.SetToolSettings(context: Context);
 
 Build.RunDotNetCore();
