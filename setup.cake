@@ -11,7 +11,7 @@ BuildParameters.SetParameters(context: Context,
                             shouldRunDotNetCorePack: true,
                             shouldRunDupFinder: true,
                             shouldRunInspectCode: false,
-                            ShouldRunCodecov: false,
+                            shouldRunCodecov: false,
                             appVeyorAccountName: "cakecontrib");
 
 BuildParameters.PrintParameters(Context);
