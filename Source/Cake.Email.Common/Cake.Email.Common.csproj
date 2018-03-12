@@ -26,7 +26,15 @@
   
   <ItemGroup>
     <PackageReference Include="MimeTypesMap" Version="1.0.2" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" PrivateAssets="All" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta006" PrivateAssets="All" />
   </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="$(SolutionDir)\stylecop.json" Link="stylecop.json" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)\Cake.Email.Common.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
 
 </Project>
