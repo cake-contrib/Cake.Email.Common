@@ -20,10 +20,6 @@
     <Company>Cake Contributions</Company>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <CodeAnalysisRuleSet>Cake.Email.Common.ruleset</CodeAnalysisRuleSet>
-  </PropertyGroup>
-  
   <ItemGroup>
     <PackageReference Include="MimeTypesMap" Version="1.0.3" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta006" PrivateAssets="All" />
@@ -34,7 +30,7 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <CodeAnalysisRuleSet>$(SolutionDir)\Cake.Email.Common.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>$(SolutionDir)\StyleCopRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
 </Project>
