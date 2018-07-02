@@ -54,8 +54,8 @@ namespace Cake.Email.Common
 		/// <param name="filePath">The file path.</param>
 		/// <param name="mimeType">Optional: MIME type of the attachment. If this parameter is null, the MIME type will be derived from the file extension.</param>
 		/// <param name="contentId">Optional: the unique identifier for this attachment IF AND ONLY IF the attachment should be embedded in the body of the email. This is useful, for example, if you want to embbed an image to be displayed in the HTML content. For standard attachment, this value should be null.</param>
-		/// <returns>The attachment</returns>
-		/// <exception cref="System.IO.FileNotFoundException">Unable to find the local file</exception>
+		/// <returns>The attachment.</returns>
+		/// <exception cref="System.IO.FileNotFoundException">Unable to find the local file.</exception>
 		public static Attachment FromLocalFile(string filePath, string mimeType = null, string contentId = null)
 		{
 			var fileInfo = new FileInfo(filePath);
@@ -81,7 +81,7 @@ namespace Cake.Email.Common
 		/// <param name="name">The name of the attachment.</param>
 		/// <param name="mimeType">Optional: MIME type of the attachment. If this parameter is null, the MIME type will be derived from the fileName extension.</param>
 		/// <param name="contentId">Optional: the unique identifier for this attachment IF AND ONLY IF the attachment should be embedded in the body of the email. This is useful, for example, if you want to embbed an image to be displayed in the HTML content. For standard attachment, this value should be null.</param>
-		/// <returns>The attachment</returns>
+		/// <returns>The attachment.</returns>
 		public static Attachment FromStream(Stream contentStream, string name, string mimeType = null, string contentId = null)
 		{
 			if (string.IsNullOrEmpty(mimeType))
