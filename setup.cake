@@ -9,7 +9,7 @@ BuildParameters.SetParameters(context: Context,
                             repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.Email.Common",
                             shouldRunDotNetCorePack: true,
-                            shouldRunDupFinder: true,
+                            shouldRunDupFinder: false,
                             shouldRunInspectCode: false,
                             shouldRunCodecov: false,
                             appVeyorAccountName: "cakecontrib");
