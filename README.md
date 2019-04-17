@@ -1,4 +1,4 @@
-# Cake.Email
+# Cake.Email.Common
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://cake-contrib.mit-license.org)
 
@@ -15,7 +15,7 @@ Cake.Email.Common contains common code used by all "email related" Addin for [Ca
 
 |Develop|Master|
 |:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/y8b1429u4dpbxlf2/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-email/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/y8b1429u4dpbxlf2/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-email/branch/master)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/b1j6f3oq57trer8o/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-email-common/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/b1j6f3oq57trer8o?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-email-common)|
 
 ## Code Coverage
 
@@ -26,6 +26,6 @@ Cake.Email.Common contains common code used by all "email related" Addin for [Ca
 - [Documentation](https://cake-contrib.github.io/Cake.Email.Common/)
 
 ## Chat Room
-Come join in the conversation about Cake.Email in our Gitter Chat Room
+Come join in the conversation about Cake.Email.Common in our Gitter Chat Room
 
 [![Join the chat at https://gitter.im/cake-contrib/Lobby](https://badges.gitter.im/cake-contrib/Lobby.svg)](https://gitter.im/cake-contrib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
