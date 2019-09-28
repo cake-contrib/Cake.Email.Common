@@ -1,4 +1,4 @@
-#load nuget:?package=Cake.Recipe&version=1.0.0
+#load nuget:?package=Cake.Recipe&version=1.1.0
 
 Environment.SetVariableNames();
 
@@ -12,7 +12,8 @@ BuildParameters.SetParameters(context: Context,
                             shouldRunDupFinder: false,
                             shouldRunInspectCode: false,
                             shouldRunCodecov: false,
-                            appVeyorAccountName: "cakecontrib");
+                            appVeyorAccountName: "cakecontrib",
+							shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
