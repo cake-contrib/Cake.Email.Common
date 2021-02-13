@@ -1,4 +1,4 @@
-#load nuget:?package=Cake.Recipe&version=1.1.0
+#load nuget:?package=Cake.Recipe&version=2.1.0
 
 Environment.SetVariableNames();
 
@@ -9,11 +9,11 @@ BuildParameters.SetParameters(context: Context,
                             repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.Email.Common",
                             shouldRunDotNetCorePack: true,
-                            shouldRunDupFinder: false,
-                            shouldRunInspectCode: false,
-                            shouldRunCodecov: false,
+                            //shouldRunDupFinder: false,
+                            //shouldRunInspectCode: false,
+                            //shouldRunCodecov: false,
                             appVeyorAccountName: "cakecontrib",
-							shouldRunGitVersion: true);
+                            shouldCalculateVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
