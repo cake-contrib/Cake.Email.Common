@@ -2,25 +2,33 @@
 init:
   - git config --global core.autocrlf true
 
-#  Build Script
+# Build script
 build_script:
-  - ps: .\build.ps1 -Target AppVeyor
+  - dotnet --info
+  - ps: .\build.ps1 --target=CI
 
 # Tests
 test: off
 
 # Branches to build
 branches:
-  # Whitelist
   only:
     - develop
     - master
+    - main
     - /release/.*/
     - /hotfix/.*/
 
-# Build Cache
+# Build cache
 cache:
-  - tools -> recipe.cake, tools\packages.config
+  - tools -> recipe.cake, .config/dotnet-tools.json
 
 # Environment configuration
 image: Visual Studio 2019
+
+#---------------------------------#
+#  Skip builds for doc changes    #
+#---------------------------------#
+skip_commits:
+  # Regex for matching commit message
+  message: /\(doc\).*/

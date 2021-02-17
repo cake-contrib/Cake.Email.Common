@@ -26,6 +26,5 @@ Cake.Email.Common contains common code used by all "email related" Addin for [Ca
 - [Documentation](https://cake-contrib.github.io/Cake.Email.Common/)
 
 ## Chat Room
-Come join in the conversation about Cake.Email.Common in our Gitter Chat Room
 
-[![Join the chat at https://gitter.im/cake-contrib/Lobby](https://badges.gitter.im/cake-contrib/Lobby.svg)](https://gitter.im/cake-contrib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Please do not hesitate to reach out in the [GitHub discussions](https://github.com/cake-build/cake/discussions/categories/extension-q-a) if you have any issues using this addin.
