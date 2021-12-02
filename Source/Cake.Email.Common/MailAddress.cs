@@ -1,4 +1,6 @@
-﻿using System;
+using System;
+
+[assembly: CLSCompliant(true)]
 
 namespace Cake.Email.Common
 {
