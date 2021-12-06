@@ -1,4 +1,4 @@
-#load nuget:?package=Cake.Recipe&version=2.1.0
+#load nuget:?package=Cake.Recipe&version=2.2.1
 
 Environment.SetVariableNames();
 
@@ -6,6 +6,7 @@ BuildParameters.SetParameters(context: Context,
                             buildSystem: BuildSystem,
                             sourceDirectoryPath: "./Source",
                             title: "Cake.Email.Common",
+							masterBranchName: "main",
                             repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.Email.Common",
                             shouldRunDotNetCorePack: true,
