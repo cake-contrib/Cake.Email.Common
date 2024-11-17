@@ -12,7 +12,6 @@ BuildParameters.SetParameters(context: Context,
                             shouldRunDotNetCorePack: true,
                             shouldRunInspectCode: false,
                             shouldRunCodecov: false,
-                            shouldPostToGitter: false,
                             appVeyorAccountName: "cakecontrib",
                             shouldCalculateVersion: true);
 
