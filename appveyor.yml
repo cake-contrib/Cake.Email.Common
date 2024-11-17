@@ -40,7 +40,6 @@ cache:
 
 # Environment configuration
 image:
-  - Ubuntu1804
   - Visual Studio 2022
 
 #  Skip builds for doc changes
